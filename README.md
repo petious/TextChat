@@ -1,7 +1,7 @@
 # TextChat
 
 This project is a chat server connecting customers in pairs.
-In addition, message exchanges between two clients are done in turn: the server therefore successively invites the client either to enter a message or to wait for the message from its correspondent.
+In addition, message exchanges between two clients are done in turn: the server successively invites the client either to enter a message or to wait for the message from its correspondent.
 
 The protocol used here is TCP, and the synchronization and concurrency aspects are managed via UNIX threads.
 
